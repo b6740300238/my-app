@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import Hero from "./Components/Hero";
 
 export default function Home() {
   return (
-    <div>การวิเคราะห์ข้อมูลขนาดใหญ์ทางรัฐประสาสนาศาสตร์</div>
-  )
+    <div>
+      <Hero />
+    </div>
+  );
 }

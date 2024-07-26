@@ -3,34 +3,39 @@ import React from "react";
 export default function Navder() {
   return (
     <div>
-      Navder
       <div className="flex justify-center ">
         <div className="self-center top-0 w-full max-w-7xl ">
           <div className="flex justify-between items-center text-gray-700">
-            <div className="mx-2 my-4 ">
+            {/* <div className="mx-2 my-4 ">
               <ion-icon
                 name="logo-pwa"
                 className="text-5xl text-blue-600 hover:text-stone-600"
               ></ion-icon>
-            </div>
-            <ul className="hidden md:flex items-center text-[18px] font-semibold pr-10">
-              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">Home</a>
+            </div> */}
+            <ul className="hidden md:flex items-center text-[16px] font-semibold pr-10">
+              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 mx">
+                <a href="/">หลักสูตรรัฐประศาสนศาสตร์</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">About Us</a>
+                <a href="#">หน้าหลัก</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">Our Services</a>
+                <a href="#">เกี่ยวกับ</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">Portfolio</a>
+                <a href="#">AI ตรวจวินิจฉัยโรค</a>
               </li>
               <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
-                <a href="#">Contact</a>
+                <a href="#">การประเมินนโบายสาธารณะ</a>
+              </li>
+              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+                <a href="#">chatGPT</a>
+              </li>
+              <li className="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1">
+                <a href="#">ทีมงาน</a>
               </li>
               <li className="text-blue-600 hover:text-white hover:bg-blue-600 mx-4 my-1 border-2 border-blue-600 px-2 rounded-2xl ">
-                <a href="#">LogIn</a>
+                <a href="#">ติดต่อ</a>
               </li>
               <li className="text-white bg-blue-600 px-2 rounded-2xl mx-4 my-1 hover:bg-white hover:text-blue-600 hover:border-2 hover:border-blue-600">
                 <a href="#">SignUp</a>
